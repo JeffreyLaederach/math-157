@@ -1,0 +1,3 @@
+SELECT ORIG, COUNT(*) AS COUNT
+FROM ressystem.flights
+GROUP BY ORIG;

@@ -1,0 +1,4 @@
+SELECT ORIG, COUNT(*) AS COUNT
+FROM ressystem.flights
+WHERE FARE > 150
+GROUP BY ORIG;

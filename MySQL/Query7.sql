@@ -1,0 +1,3 @@
+SELECT DISTINCT PASS_NAME
+FROM ressystem.passenger
+WHERE PASS_NAME LIKE 's%';
